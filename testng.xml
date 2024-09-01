@@ -1,0 +1,18 @@
+<suite name="Suite1">
+    <!--<listeners>
+        <listener class-name="Utilities.Listeners"/>
+    </listeners>-->
+    <test name="RegressionTest">
+        <groups>
+            <run>
+                <include name="Regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="test1"/>
+               <!-- <methods>
+                    <include name="test_PS3" />
+                </methods>-->
+        </classes>
+    </test>
+</suite>
